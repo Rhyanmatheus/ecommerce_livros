@@ -1,0 +1,112 @@
+.carrossel_titulo{
+    text-align: center;
+    font-size: 1.125rem;
+    color: var(--laranja);
+    font-weight: 700;
+    background-color: var(--branco);
+    padding: 1em;
+    text-transform: uppercase;
+
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em;
+}
+.card{
+    background-color: var(--branco);
+    border-radius: 0.625em;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card_infos{
+    display: flex;
+}
+.card_botoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card_titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    padding:10px 0;
+    font-size: 16px;
+}
+.card_subtitulo{
+    color: var(--azul);
+    font-weight: 700;
+    padding: 25px 0;
+    font-size: 18px;
+}
+.card_saiba_mais{
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em;
+    text-decoration: none;
+    
+}
+.topicos{
+    background-color: var(--azul);
+    padding: 1em 2em;
+}
+.botao_topicos{
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.topicos_titulos{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+.row { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+  }
+.novidades{
+    background-color: white;
+    padding: 2.5em 2em;
+}
+.novidades_titulo{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1.0em 0em;
+}
+.novidades_pesquisa{
+    background-color: transparent;
+    border: 1px;
+    border-style: solid;
+    border-color: var(--azul);
+    
+    color: #ffffff;
+    border-radius: 24px;
+    padding: 1em 0em;
+    width: 100%;
+    font-size: 16px;
+    text-align:  center;
+    font-family:"Poppins", sans-serif ;
+}
+.novidades_texto{
+    font-weight: 500;
+    padding: 1.0em 0em;
+    align-items: center;
+}
+.rodape{
+    background-color: var(--cor-fundo);
+    color: black;
+    font-size: 16px;
+    padding: 20px;
+}
